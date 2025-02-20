@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu Mono", monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 30px 30%;
+    font-size: 25px;
+}
+
+.menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    opacity: 0;
+    display: flex;
+    gap: 20px;
+    padding: 30px 30%;
+    font-size: 20px;
+    list-style: none;
+}
+
+.nav-menu.show {
+    opacity: 1;
+    
+}
+
+.title {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+}
+
+.group {
+    margin: 20px;
+}
+
+/* .info > h3 {
+    opacity: 0;
+} */
+
+.project {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.section-title {
+    margin-top: 50px;
+}
+
+.techs {
+    margin: 5px 0;
+    display: flex;
+    gap: 5px;
+}
+
+span.tech {
+    color: white;
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.project {
+    width: 40%;
+}
